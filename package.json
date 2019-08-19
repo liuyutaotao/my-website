@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "css-scss": "^0.1.1",
+    "element-ui": "^2.11.1",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"
@@ -19,12 +21,15 @@
     "@vue/cli-service": "^3.10.0",
     "@vue/eslint-config-prettier": "^5.0.0",
     "babel-eslint": "^10.0.1",
+    "element-theme-chalk": "^2.11.1",
     "eslint": "^5.16.0",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-vue": "^5.0.0",
-    "less": "^3.0.4",
+    "less": "3.9.0",
     "less-loader": "^4.1.0",
+    "node-sass": "^4.12.0",
     "prettier": "^1.18.2",
+    "sass-loader": "^7.2.0",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
