@@ -9,7 +9,7 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: "/",
+      path: "/", 
       name: "home",
       component: Home
     },
@@ -21,6 +21,26 @@ export default new Router({
       // which is lazy-loaded when the route is visited.
       component: () =>
         import(/* webpackChunkName: "about" */ "./views/About.vue")
-    }
+    },
+    {
+      path: "/product",
+      name: "product",
+      component: () => import("./views/Product.vue")
+    },
+    {
+      path: "/application",
+      name: "application",
+      component: () => import("./views/Application.vue")
+    },
+    {
+      path: "/join",
+      name: "join",
+      component: () => import("./views/Join.vue")
+    },
+    {
+      path: "/telephone",
+      name: "telephone",
+      component: () => import("./views/Telephone.vue")
+    },
   ]
 });

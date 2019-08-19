@@ -9,7 +9,7 @@
       >.
     </p>
     <h3>Installed CLI Plugins</h3>
-    <ul>
+    <!-- <ul>
       <li>
         <a
           href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel"
@@ -26,9 +26,9 @@
           >eslint</a
         >
       </li>
-    </ul>
+    </ul> -->
     <h3>Essential Links</h3>
-    <ul>
+    <!-- <ul>
       <li>
         <a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a>
       </li>
@@ -50,9 +50,9 @@
       <li>
         <a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a>
       </li>
-    </ul>
+    </ul> -->
     <h3>Ecosystem</h3>
-    <ul>
+    <!-- <ul>
       <li>
         <a href="https://router.vuejs.org" target="_blank" rel="noopener"
           >vue-router</a
@@ -82,7 +82,7 @@
           >awesome-vue</a
         >
       </li>
-    </ul>
+    </ul> -->
   </div>
 </template>
 
